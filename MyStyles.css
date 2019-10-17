@@ -1,0 +1,48 @@
+body {
+    background-image: url("images/background.png");
+}
+#Name {
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-color: aqua;
+    border: 1px solid #000000;
+    opacity: 0.7;
+    border-radius:10px;
+    padding-left:30px;
+    width: 30%;
+}
+Jopa {
+    font-size: 24px;
+    background-color: aliceblue;
+}
+#Name:hover {
+    border: 5px solid #000000;
+    margin-bottom:4px;
+
+}
+a {
+    display:block;
+    background-image: url("images/logo.jpg");
+    border: 5px solid #44BCEB;
+    height: 100px;
+    width: 100px;
+    border-radius: 55px;
+    opacity:0.5;
+}
+div {
+   
+    
+}
+#putin{
+    position:absolute;
+    left:1200px;
+    top:550px;
+    width:7%;
+}
+.logo:hover {
+    transform: scale(1.1);
+    border: 5px solid #0B1A6F;
+    opacity: 1;
+}
+   
