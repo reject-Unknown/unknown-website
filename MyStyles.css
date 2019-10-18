@@ -12,10 +12,9 @@ body {
     padding-left:30px;
     width: 30%;
 }
-Jopa {
-    font-size: 24px;
-    background-color: aliceblue;
-}
+a {
+    text-decoration: none; 
+} 
 #Name:hover {
     border: 5px solid #000000;
     margin-bottom:4px;
@@ -50,7 +49,7 @@ Jopa {
     opacity: 0.9;
 }
 .namelogo {
-    display: block;
+    display: none;
     background-image: url("images/NameTagTest.png");
     height: 120px;
     width: 300px;
@@ -59,4 +58,44 @@ Jopa {
     bottom: 0px;
     left: 30px;
     transform: scale(0.5);
+}
+.PU {
+    font-size: 25px;
+    font-family: a_SimplerDnm;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 120px;
+}
+.Project {
+    color:#23211f;
+    display: block;
+    position: absolute;
+    bottom: 22px;
+    left: 23px;
+}
+.Unknown {
+    color: #2f1a8c;
+}
+.Star {
+    color: #357ae2;
+}
+.Star2 {
+    color: #357ae2;
+    position: absolute;
+    bottom: 0px;
+    left: 132px;
+}
+
+.PU:hover .Star {
+    color: #840fdf;
+}
+.PU:hover .Star2 {
+    color: #840fdf;
+}
+@font-face {
+    font-family: "a_SimplerDnm";
+    src: url(Fonts/a_SimplerDnm.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
