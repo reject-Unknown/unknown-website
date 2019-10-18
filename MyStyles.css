@@ -21,27 +21,10 @@ Jopa {
     margin-bottom:4px;
 
 }
-a {
-   
-}
-div {
-   
-    
-}
-#putin{
-    position:relative;
-    left:1200px;
-    top:550px;
-    width:7%;
-}
 .logo:hover {
     transform: scale(1.1);
     border: 5px solid #0B1A6F;
     opacity: 1;
-}
-.button {
-    display: block;
-    border: 5px solid #0B1A6F;
 }
 .Shapka {
     display:block;
@@ -51,8 +34,7 @@ div {
     height:110px;
     border:2px solid #808080;
     position:relative;
-    background-color:white;
-    opacity:0.6;
+    background-color: rgba(255,255,255,0.6);
     
 }
 .logo {
@@ -65,11 +47,16 @@ div {
     position: absolute;
     top: 15px;
     left: 20px;
+    opacity: 0.9;
 }
 .namelogo {
     display: block;
     background-image: url("images/NameTagTest.png");
-    height: 100px;
-    width: 100px;
-    opacity: 1;
+    height: 120px;
+    width: 300px;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    transform: scale(0.5);
 }
