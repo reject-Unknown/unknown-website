@@ -22,7 +22,7 @@ a {
 }
 .logo:hover {
     transform: scale(1.1);
-    border: 5px solid #0B1A6F;
+    border: 3px solid #0B1A6F;
     opacity: 1;
 }
 .Shapka {
@@ -39,7 +39,7 @@ a {
 .logo {
     display: block;
     background-image: url("images/logo.jpg");
-    border: 5px solid #44BCEB;
+    border: 3px solid #44BCEB;
     height: 70px;
     width: 70px;
     border-radius: 100%;
@@ -64,7 +64,7 @@ a {
     font-family: a_SimplerDnm;
     display: block;
     position: absolute;
-    bottom: 25px;
+    bottom: 28px;
     left: 120px;
 }
 .Project {
@@ -93,6 +93,7 @@ a {
 .PU:hover .Star2 {
     color: #840fdf;
 }
+
 @font-face {
     font-family: "a_SimplerDnm";
     src: url(Fonts/a_SimplerDnm.ttf) format('truetype');
