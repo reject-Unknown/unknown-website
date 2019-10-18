@@ -22,20 +22,14 @@ Jopa {
 
 }
 a {
-    display:block;
-    background-image: url("images/logo.jpg");
-    border: 5px solid #44BCEB;
-    height: 100px;
-    width: 100px;
-    border-radius: 55px;
-    opacity:0.5;
+   
 }
 div {
    
     
 }
 #putin{
-    position:absolute;
+    position:relative;
     left:1200px;
     top:550px;
     width:7%;
@@ -45,4 +39,37 @@ div {
     border: 5px solid #0B1A6F;
     opacity: 1;
 }
-   
+.button {
+    display: block;
+    border: 5px solid #0B1A6F;
+}
+.Shapka {
+    display:block;
+    width:100%;
+    max-width:1900px;
+    min-width:500px;
+    height:110px;
+    border:2px solid #808080;
+    position:relative;
+    background-color:white;
+    opacity:0.6;
+    
+}
+.logo {
+    display: block;
+    background-image: url("images/logo.jpg");
+    border: 5px solid #44BCEB;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.namelogo {
+    display: block;
+    background-image: url("images/NameTagTest.png");
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+}
