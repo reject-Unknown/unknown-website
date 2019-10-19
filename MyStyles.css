@@ -1,25 +1,9 @@
 body {
     background-image: url("images/background.png");
 }
-#Name {
-    position:fixed;
-    left:0px;
-    top:0px;
-    background-color: aqua;
-    border: 1px solid #000000;
-    opacity: 0.7;
-    border-radius:10px;
-    padding-left:30px;
-    width: 30%;
-}
 a {
     text-decoration: none; 
 } 
-#Name:hover {
-    border: 5px solid #000000;
-    margin-bottom:4px;
-
-}
 .logo:hover {
     transform: scale(1.1);
     border: 3px solid #0B1A6F;
@@ -92,6 +76,34 @@ a {
 }
 .PU:hover .Star2 {
     color: #840fdf;
+}
+.Tag {
+    background-image: url("images/Desc.png");
+    position: absolute;
+    top: -20px;
+    left: 1200px;
+    display: block;
+    height: 150px;
+    width: 570px;
+    transform: scale(0.5);
+}
+.Box {
+    display: block;
+    width: 100%;
+    max-width: 1900px;
+    min-width: 500px;
+    height: 110px;
+    border: 2px solid #808080;
+    position: relative;
+}
+.Circle {
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    background-color:red;
+    position:absolute;
+    left:1200px;
+
 }
 
 @font-face {
