@@ -91,7 +91,12 @@ a {
     height: 41px;
    margin: 110px auto 0px ;
 }
-
+.Menu ul {
+    list-style:none;
+}
+.Menu li {
+    float:left;
+}
 @font-face {
     font-family: "a_SimplerDnm";
     src: url(Fonts/a_SimplerDnm.ttf) format('truetype');
