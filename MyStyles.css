@@ -92,10 +92,14 @@ a {
    margin: 110px auto 0px ;
 }
 .Menu ul {
+    margin:0px;
     list-style:none;
 }
 .Menu li {
     float:left;
+}
+.Menu a {
+
 }
 @font-face {
     font-family: "a_SimplerDnm";
