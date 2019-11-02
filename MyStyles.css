@@ -2,7 +2,7 @@ body {
     background-image: url("images/background.png");
 }
 a {
-    text-decoration: none; 
+    text-decoration: none;
 } 
 .logo:hover {
     transform: scale(1.1);
@@ -85,6 +85,44 @@ a {
     height: 110px;
     width: 350px;
     
+}
+
+nav {
+   
+    width: 800px;
+    margin: 0px auto 0px;
+    height: 41px;
+}
+.MainMenu {
+    background-color:aliceblue;
+}
+nav ul {
+        list-style: none;
+    }
+nav li {
+    float: left;
+}
+nav a {
+    opacity: 0.8;
+    display: inline-block;
+    width: 120px;
+    height: 100%;
+    line-height: 200%;
+    text-align: center;
+    background-color: #D9D9D0;
+    font-size: 20px;
+    color: #2F1A8C;
+}
+nav ul {
+    margin: 0px;
+}
+.Main_Menu {
+    margin:0px;
+}
+nav a:hover {
+    background-color: #D97878;
+    opacity: 1;
+    color: black;
 }
 
 
