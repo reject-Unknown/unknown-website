@@ -99,10 +99,8 @@ a {
 }
     .Menu li {
         float: left;
-
     }
     .Menu a {
-      
         opacity: 0.8;
         display: inline-block;
         width: 120px;
@@ -115,12 +113,18 @@ a {
         box-sizing: border-box;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
-        border: 2px solid #808080;
+        border-top: 2px solid #808080;
         border-bottom: 0px;
     }
         .Menu a:hover {
-            color: #55BFE9;
+            color: black;
             background-color: #ED774C;
+        }
+        #First {
+            border-left: 2px solid #808080;
+        }
+        #Last {
+            border-right: 2px solid #808080;
         }
 @font-face {
     font-family: "a_SimplerDnm";
