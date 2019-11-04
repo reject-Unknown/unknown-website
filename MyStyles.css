@@ -11,10 +11,10 @@ a {
 }
 .Shapka {
     position: relative;
-    display: block;
+    display:block;
     width: 100%;
     max-width: 1900px;
-    min-width: 700px;
+    min-width: 1024px;
     height: 151px;
     border: 2px solid #808080;
     border-bottom:0px;
@@ -79,18 +79,20 @@ a {
 }
 .Tag {
     background-image: url("images/Desc.png");
-    position: absolute;
-    top: 5px;
-    right: 20px;
+    position:absolute;
     display: block;
     height: 110px;
-    width: 350px;    
+    width: 350px;
+    top: 5px;
+    right: 30px;
+    opacity:1;
 }
 .Menu {
     min-width: 960px;
     max-width: 960px;
     height: 40px;
     margin: 111px auto 0px;
+  
 }
 .Menu ul {
     padding:0px;
@@ -126,6 +128,16 @@ a {
         #Last {
             border-right: 2px solid #808080;
         }
+.Tag_Container {
+    width: 100%;
+    max-width: 1900px;
+    min-width: 700px;
+    height:110px;
+    display: block;
+    position:relative;
+    top:-150px;
+  
+}
 @font-face {
     font-family: "a_SimplerDnm";
     src: url(Fonts/a_SimplerDnm.ttf) format('truetype');
