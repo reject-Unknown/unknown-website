@@ -11,12 +11,13 @@ a {
 }
 .Shapka {
     position: relative;
-    display: block;
+    display:block;
     width: 100%;
     max-width: 1900px;
-    min-width: 700px;
-    height: 110px;
+    min-width: 1024px;
+    height: 151px;
     border: 2px solid #808080;
+    border-bottom:0px;
     background-color: rgba(255,255,255,0.6);
 }
 .logo {
@@ -47,7 +48,7 @@ a {
     font-family: a_SimplerDnm;
     display: block;
     position: absolute;
-    bottom: 28px;
+    bottom: 60px;
     left: 120px;
 }
 .Project {
@@ -78,16 +79,65 @@ a {
 }
 .Tag {
     background-image: url("images/Desc.png");
-    position: absolute;
-    top: 5px;
-    right: 20px;
+    position:absolute;
     display: block;
     height: 110px;
     width: 350px;
-    
+    top: 5px;
+    right: 30px;
+    opacity:1;
 }
-
-
+.Menu {
+    min-width: 960px;
+    max-width: 960px;
+    height: 40px;
+    margin: 111px auto 0px;
+  
+}
+.Menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+    .Menu li {
+        float: left;
+    }
+    .Menu a {
+        opacity: 0.8;
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        line-height: 200%;
+        text-align: center;
+        background-color: #D9D9D0;
+        font-size: 20px;
+        color: #2F1A8C;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-top: 2px solid #808080;
+        border-bottom: 0px;
+    }
+        .Menu a:hover {
+            color: black;
+            background-color: #ED774C;
+        }
+        #First {
+            border-left: 2px solid #808080;
+        }
+        #Last {
+            border-right: 2px solid #808080;
+        }
+.Tag_Container {
+    width: 100%;
+    max-width: 1900px;
+    min-width: 700px;
+    height:110px;
+    display: block;
+    position:relative;
+    top:-150px;
+  
+}
 @font-face {
     font-family: "a_SimplerDnm";
     src: url(Fonts/a_SimplerDnm.ttf) format('truetype');
