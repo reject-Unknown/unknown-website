@@ -3,7 +3,7 @@ body {
 }
 a {
     text-decoration: none; 
-} 
+}
 .logo:hover {
     transform: scale(1.1);
     border: 3px solid #0B1A6F;
@@ -110,6 +110,7 @@ a {
         line-height: 200%;
         text-align: center;
         background-color: #D9D9D0;
+        font-family:Consolas;
         font-size: 20px;
         color: #2F1A8C;
         box-sizing: border-box;
@@ -129,13 +130,13 @@ a {
             border-right: 2px solid #808080;
         }
 .Tag_Container {
-    width: 100%;
-    max-width: 1900px;
-    min-width: 700px;
+    max-width: 1600px;
+    min-width: 400px;
     height:110px;
     display: block;
     position:relative;
     top:-150px;
+    margin-left:300px;
   
 }
 @font-face {
